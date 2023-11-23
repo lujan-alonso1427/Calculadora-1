@@ -1,0 +1,87 @@
+h1 { color: rgb(99, 96, 96);}
+div { color: rgb(253, 253, 250); }
+
+@import url('https://fonts.googleapis.com/css2?family=Neucha&family=Quicksand&display=swap');
+
+body{
+    background: beige;
+    font-family: 'Quicksand', sans-serif;
+    }
+
+#contenedor{ 
+  width: 900px;
+  height: 500px;
+  text-align: center;
+  position: absolute;
+  inset: 0;
+  margin: auto;
+}
+
+#division1{
+  background: #03adad;
+  width:50% ;
+  height: 100%;
+  float: left;
+}
+
+#division2{
+  background: #068a8a;
+  width: 50%;
+  height: 100%;
+  float: left;
+  color: #52b7be;
+}
+
+.contenido{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  overflow: hidden;
+  padding: 40px;
+}
+input{
+  width: 70%;
+  padding: 12px 15px;
+  border: none;
+  background-color: beige;
+}
+
+button{
+  font-size: 15px;
+    font-weight: bold;
+    padding: 12px 45px;
+    border-radius: 30px;
+    background-color: beige;
+    border: 1px solid beige;
+    color: #068a8a;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: transform 20ms ease-in;
+}
+
+#contenedor{
+  width: 900px;
+  height: 500px;
+  text-align: center;
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 14px 28px rgb(7, 109, 109),
+  0 10px 10px  aquamarine;
+}
+
+#error{
+  color: red;
+  font-weight: bold;
+  display: none;
+}
+
+.resultado{
+  color: black;
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: 5px;
+  display: none;
+}
