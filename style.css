@@ -4,7 +4,7 @@ div { color: rgb(253, 253, 250); }
 @import url('https://fonts.googleapis.com/css2?family=Neucha&family=Quicksand&display=swap');
 
 body{
-    background: beige;
+    background-image: url(hospital-3872344_1280.jpg);
     font-family: 'Quicksand', sans-serif;
     }
 
@@ -18,16 +18,16 @@ body{
 }
 
 #division1{
-  background: #03adad;
-  width:50% ;
-  height: 100%;
+  background-image: url(hospital.3.jpg);
+  width:100% ;
+  height: 70%;
   float: left;
 }
 
 #division2{
   background: #068a8a;
-  width: 50%;
-  height: 100%;
+  width: 100%;
+  height: 30%;
   float: left;
   color: #52b7be;
 }
